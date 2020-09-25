@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Timer.css" 
 
 class Timer extends Component {
   constructor(props:any) {
@@ -23,7 +24,7 @@ class Timer extends Component {
   }
 
   render = () => {
-    return <div className="timer-container" />;
+    return (<div className="timer-container"></div>)
   };
 }
 
