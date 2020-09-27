@@ -3,7 +3,7 @@ import './App.css';
 import Timer from '../Timer/Timer';
 
 const App = () => (
-    <div className='container'>
+    <div className="app-container">
         <Timer />
     </div>
 )
